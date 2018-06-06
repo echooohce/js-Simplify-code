@@ -1,0 +1,21 @@
+1，使用三目运算代替简单的if语句.
+  const val1 = 153;
+  const val2 = val1==153 ? 'yes,you got it' : 'no,you're wrong'; => 'yes,you got it'
+2，短路写法"||".
+  const val1 = 'i'm here';
+  let val2;
+  const val3 = val1 || 'doesn't exist'; => 'i'm here'
+  const val4 = val2 || 'doesn't exist'; => 'doesn't exist
+3，解构赋值.
+   import { Row, Col, Card, Form, Button, Table, Modal, Divider } from 'antd';
+   const { showModel, loading, team } = this.props;
+   const{ timeout = 10 ,headers={} ,version = "1.0" } = options;
+4，对象展开"..."
+   this.setState({
+      ...this.state,
+      editModalVisible: show,
+    });
+5，函数设置默认值.
+  test = (width,height=153,bgcolor='#f99') => your code
+
+  
