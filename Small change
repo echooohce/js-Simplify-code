@@ -1,6 +1,7 @@
 1，使用三目运算代替简单的if语句.
   const val1 = 153;
   const val2 = val1==153 ? 'yes,you got it' : 'no,you're wrong'; => 'yes,you got it'
+  let b = a === true ? c : d 
 2，短路写法"||".
   const val1 = 'i'm here';
   let val2;
@@ -17,5 +18,10 @@
     });
 5，函数设置默认值.
   test = (width,height=153,bgcolor='#f99') => your code
+6，'~~'和'|0'向下取整
+  ~~1.53 =>1
+  1.53 |0 =>1
+  ~~NaN =>0
+  NaN |0 =>0
+  Math.floor(NaN) =>NaN
 
-  
