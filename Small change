@@ -24,4 +24,7 @@
   ~~NaN =>0
   NaN |0 =>0
   Math.floor(NaN) =>NaN
+7,es7求幂运算符（**）
+  3**2 =>9
+  Math.pow(3,2) => 9
 
