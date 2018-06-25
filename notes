@@ -1,0 +1,30 @@
+1，Object.entries()
+  let obj1 = {a:1,b:2,c:3};
+  Object.entries(obj1).forEach(([key,val])=>{
+    console.log(key+':'+val)
+  })
+  print:a:1
+        b:2
+        c:3
+  let obj2 = {a:11,b:22,c:33};
+  Object.entries(obj2)
+  print:    ["a", 11]
+            ["b", 22]
+            ["c", 33]
+2，Object.Values()
+  Object.values(obj1);
+  print:[1,2,3]
+3，Object.keys()
+  Object.keys(obj1);
+  print:['a','b','c']
+4,padStart和padEnd
+  'hawa'.padStart(8,'echo')
+   print:"echohawa"
+  'hawa'.padStart(8)
+   print:"    hawa"
+  'echo'.padEnd(12,'ohceecho')
+   print:"echoohceecho"
+  'echo'.padEnd(12)
+   print:"echo        "
+ 5,Object.getOwnPropertyDescriptors()
+   
