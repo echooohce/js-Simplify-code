@@ -1,0 +1,4 @@
+1，rem
+<meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+document.documentElement.style.fontSize=document.documentElement.clientWidth/640*100+"px";   //当前屏幕的宽度 /  设计稿的宽度   乘  100 +“px”
